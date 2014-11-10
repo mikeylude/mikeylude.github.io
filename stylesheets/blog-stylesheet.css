@@ -1,0 +1,76 @@
+*{
+}
+
+page{
+  width:100%;
+  height:100%;
+  position:relative;
+  border:10px solid black;
+  display:flex;
+}
+
+.container {
+ position:absolute;
+}
+
+.linkcloud{
+  left:72%;
+  top:55%;
+  width:25%;
+  text-align:center;
+}
+
+.footer{
+  display:block;
+  position:absolute;
+  bottom:-30%;
+  left:10%;
+}
+
+.center{
+}
+
+.quote{
+ width:25%;
+ height:30%;
+ left:72%;
+ top:20%;
+ border:blue;
+ text-align:center;
+ vertical-align:center;
+ border:1px dashed black;
+}
+
+.post{
+ width:60%;
+ height:60%;
+ left:10%;
+ top:6%;
+}
+
+.button {
+  padding:0.1em;
+  width:5%;
+  height:5%;
+  left:5%;
+  bottom:90%;
+  position:absolute;
+  text-align:center;
+  border-radius:0.8em;
+}
+
+.linkgroup{
+  display:block;
+  list-style-type:none;
+  list-style-position:horizontal;
+  right:2%;
+  bottom:86%;
+  position:absolute;
+
+}
+
+.socialmedia-link{
+  display:inline;
+  margin-right:0.5em;
+  padding:0.1em;
+}
