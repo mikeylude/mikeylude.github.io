@@ -15,3 +15,17 @@ html {
 	background-color: #700000;
 
 }
+
+#intro{
+	margin-top:-24em;
+	margin-left:3%;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#bottomlink {
+	position:fixed;
+	left:40%;
+	top:92%;
+	font-size:200%;
+	font-family: 'Lobster', cursive;
+}
