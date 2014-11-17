@@ -21,10 +21,9 @@ page{
 }
 
 .footer{
-  display:block;
-  position:absolute;
-  bottom:-30%;
-  left:10%;
+margin-right:auto;
+margin-left:auto; 
+position:absolute;
 }
 
 .center{
