@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+      <link type="text/css" rel="stylesheet" href="../stylesheets/my-website-stylesheet.css">
+      <title>Mike's Website</title>
+</head>
+<body>
+
+
+
+<div id="nav-blog">
+  <a href="../blog/my-website.html">Home</a>
+  <a href="#">About me</a>
+  <a href="#">Contact</a>
+  <a href="../blog/blog-menu.html">Blog</a>
+</div>
+
+<div id="blogbox">
+  <h1>Enumerable Method's<h1>
+
+  <h3>The Map Method<h3>
+
+  <h5>12/1/2014<h5>
+
+  <p>
+    In this post I will talk about the map method.  Enumerable methods are definitely a big part of ruby as they have many functions that can shorten code and help the developer get what they need in a much shorter amount of time if written properly.  We are able to filter collections and run through array's and inputs much faster.  For example <br>
+
+    arr = [1,2,3,4,5,6,7,8,9,10] << I have just defined arr as a new array <br>
+
+    arr.map {|i| i.to_s} << converting all elements in array to string, but doesn't store as original<br>
+
+    Another way to write the method previously<br>
+
+    arr.map(&:to_s) << <br>
+
+    We are also able to use the shortened version to pass in different methods to look for different things such as even and odd numbers: <br>
+
+    arr.map(&:odd?)  << returns boolean values <br>
+
+    arr.map(&:even?)  << returns boolean values <br>
+
+    Using map will keep your array / input non destructive which would mean the original would not change, however by adding an exclamation mark to it like : map!, which would make it destructive and change the value to whatever method being called on it. <br>
+
+    Overall I find this method very helpful, although it doesn't change the original, we can set it to another variable within the method in which we can further manipulate it to our advantage to whatever were doing. <br>
+
+
+
+</div>
+
+
+<div id="social"
+  <a href="https://www.facebook.com/michael.lim.3781">
+  <img src="../imgs/facebook.png" /></a><br>
+            
+  <a href="www.linkedin.com/pub/michael-lim/42/b14/997/">          
+  <img src="../imgs/linkedin.png" /></a><br>
+          
+  <a href="https://twitter.com/mik3ysaur">
+  <img src="../imgs/twitter.png" /></a><br>
+
+  <a href="#"></a>
+  <img src="../imgs/reddit.png" /></a><br>  
+
+  <a href="#"></a>
+  <img src="../imgs/youtube.png" /></a><br>
+
+  <a href="#"></a>
+  <img src="../imgs/google+.png" /></a><br>
+</div>
+
+<div id="footer">
+</div>
+
+</body>
+</html>
