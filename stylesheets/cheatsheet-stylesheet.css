@@ -1,0 +1,52 @@
+h1 {
+	background-color: #E0E0E0;
+	border: 5px solid black;
+	padding: 5px;
+}
+
+span {
+	font-size: 15px;
+}
+
+/*just testing div boxes, absolute and relative positioning*/
+/*#test {
+	left: 73%;
+	top:10%;
+	width: 25%;
+	height: 50%;
+	position: absolute;
+	border:5px dotted red;
+}*/
+
+#block1 {
+	background-color: #D0D0D0;
+	width: 70%;
+	top: 1%;
+	position: relative;
+	border: 5px solid black;
+}
+
+#block2 {
+	background-color: #C8C8C8;
+	top: 3%;
+	width: 70%;
+	position: relative;
+	border: 5px solid black;
+}
+
+#block3 {
+	background-color: #C0C0C0;
+	top: 5%;
+	width: 70%;
+	position: relative;
+	border: 5px solid black;
+}
+
+#block4 {
+	background-color: #B8B8B8;
+	top: 7%;
+	width: 70%;
+	position: relative;
+	border: 5px solid black;
+}
+
